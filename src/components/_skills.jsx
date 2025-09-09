@@ -16,8 +16,8 @@ function InfiniteSlider({ items, speed, direction = "left" }) {
     };
 
     measure();
-    window.addEventListener("resize", measure);
     window.addEventListener("load", measure);
+    window.addEventListener("resize", measure);
     return () => window.removeEventListener("resize", measure);
   }, [items]);
 
