@@ -17,14 +17,12 @@
   margin: 1em auto 0;
   width: 100%;
   overflow: hidden;
-  border: 1px solid yellow;
 }
 
 .slider {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px solid pink;
 }
 
 .slider-title {
@@ -45,7 +43,6 @@
   display: flex;
   will-change: transform;
   transition: none;
-  border: 1px solid green;
 }
 
 .slider-inner:hover .slider-items {
@@ -56,7 +53,6 @@
   display: inline-block;
   position: relative;
   margin-right: 1.5em;
-  border: 1px solid red;
 }
 
 .skill-icon {

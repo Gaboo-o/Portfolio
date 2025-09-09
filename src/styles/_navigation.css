@@ -71,8 +71,13 @@
   cursor: pointer;
 }
 
+.menu-toggle button {
+  background: none;
+  border: none;
+}
+
 .menu-toggle img {
-  width: 3em;
+  width: 4em;
   height: auto;
 }
 
