@@ -52,14 +52,17 @@ export default function About({ data }) {
                 <div className="hidden-about-content">
                     <ReactMarkdown
                         components={{
-                            a: ({ node, ...props }) => (
-                            <a
-                                {...props}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{ color: "inherit" }}
-                            />
-                            ),
+                            a: ({ node, ...props }) => {
+                                console.log("markdown link:", props.href);
+                                return (
+                                    <a
+                                        {...props}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        style={{ color: "inherit" }}
+                                    />
+                                );
+                            },
                         }}
                         >
                         {data.hiddenAbout.details}
