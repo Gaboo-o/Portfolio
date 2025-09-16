@@ -1,3 +1,4 @@
+import ReactMarkdown from "react-markdown";
 import { useRef, useEffect, useState } from "react";
 import smoothScroll from "../utils/_smoothScroll";
 
@@ -49,7 +50,21 @@ export default function About({ data }) {
             {/* Hidden about section */}
             <section id="about" className={`hidden-about ${isActive ? "active" : ""}`} ref={hiddenAboutRef}>
                 <div className="hidden-about-content">
-                    <p dangerouslySetInnerHTML={{ __html: data.hiddenAbout.details.replace("\n", "<br>") }} />
+                    <ReactMarkdown
+                        components={{
+                            a: ({ node, ...props }) => (
+                            <a
+                                {...props}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ color: "inherit" }}
+                            />
+                            ),
+                        }}
+                        >
+                        {data.hiddenAbout.details}
+                    </ReactMarkdown>
+
                 </div>
             </section>
 
