@@ -64,7 +64,6 @@ export default function About({ data }) {
                         >
                         {data.hiddenAbout.details}
                     </ReactMarkdown>
-
                 </div>
             </section>
 
