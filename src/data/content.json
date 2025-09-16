@@ -26,7 +26,7 @@
             "imageAlt": "Profile Picture"
         },
         "hiddenAbout": {
-            "details": "I'm an international student from Brazil majoring in Computer Science :D\nI enjoy reading, playing games, and listening to EDM.\nYou can often find me at a library doing exactly that or studing.\nHere is my [Resume!](https://gabvalle.com/assets/ResumeGabrielValle.pdf)",
+            "details": "I'm an international student from Brazil majoring in Computer Science :D\nI enjoy reading, playing games, and listening to EDM.\nYou can often find me at a library doing exactly that or studing.\nHere is my [Resume!](./assets/ResumeGabrielValle.pdf)",
             "toggleOutline": { "src": "assets/header/toggleOutline_icon.svg", "alt": "Menu Toggle" },
             "toggleFill": { "src": "assets/header/toggleFill_icon.svg", "alt": "Menu Toggle" }
         }
