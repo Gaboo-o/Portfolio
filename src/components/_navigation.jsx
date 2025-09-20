@@ -5,7 +5,7 @@ export default function Navigation({ data }) {
   const [isActive, setIsActive] = useState(false);
   const [menuIcon, setMenuIcon] = useState({
     src: data.menu.close.src,
-    alt: data.menu.close.alt
+    alt: data.menu.close.alt,
   });
 
   const toggleMenu = () => {
@@ -21,7 +21,10 @@ export default function Navigation({ data }) {
     if (isActive) {
       setMenuIcon({ src: data.menu.openFill.src, alt: data.menu.openFill.alt });
     } else {
-      setMenuIcon({ src: data.menu.closeFill.src, alt: data.menu.closeFill.alt });
+      setMenuIcon({
+        src: data.menu.closeFill.src,
+        alt: data.menu.closeFill.alt,
+      });
     }
   };
 
@@ -53,14 +56,12 @@ export default function Navigation({ data }) {
       <ul className="nav-list">
         {/* Logo */}
         <li className="nav-list-left">
-          <a
-            onClick={(e) => handleNavClick(data.logo, e)}
-          >
+          <a onClick={(e) => handleNavClick(data.logo, e)}>
             <img
               className="nav-list-img"
               src={data.logo.src}
               alt={data.logo.alt}
-              style={{ width: '3.0em' }}
+              style={{ width: "3.0em" }}
             />
           </a>
         </li>

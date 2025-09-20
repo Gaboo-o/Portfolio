@@ -1,0 +1,87 @@
+@import "__variables.css";
+
+.achievements-title {
+  padding-top: 1em;
+  margin: 1em 0;
+  border-right: var(--border-size) solid transparent;
+  border-left: var(--border-size) solid transparent;
+  border-top: var(--border-size) solid var(--border-color);
+}
+
+.achievements-title h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.achievement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: var(--border-size) solid var(--border-color);
+  margin-bottom: var(--gap);
+  height: 20em;
+  max-width: 300px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.achievement::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--background-color, #fff);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.achievement:hover {
+  transform: translateY(-0.5em);
+}
+
+.achievement-title {
+  flex: 0 0 25%;
+  display: flex;
+  width: 100%;
+  border: var(--border-size) solid transparent;
+  border-bottom: var(--border-size) solid var(--border-color);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.achievement-image {
+  height: 105%;
+  width: 100%;
+  object-fit: fill;
+  filter: brightness(1) invert(0);
+}
+
+.timeline-wrapper {
+  position: relative;
+}
+
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  z-index: 0;
+  pointer-events: none;
+}

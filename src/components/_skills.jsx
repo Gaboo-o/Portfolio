@@ -54,7 +54,6 @@ function InfiniteSlider({ items, speed, direction = "left" }) {
       ? items
       : Array.from({ length: repeatCount }, () => items).flat();
 
-
   return (
     <div className="slider-track" ref={containerRef}>
       {repeatedItems.map((item, i) => (

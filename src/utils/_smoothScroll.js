@@ -1,7 +1,8 @@
 export default function smoothScroll(element, offset = 200, duration = 1000) {
   if (!element) return;
 
-  const targetPosition = element.getBoundingClientRect().top + window.scrollY - offset;
+  const targetPosition =
+    element.getBoundingClientRect().top + window.scrollY - offset;
   const startPosition = window.scrollY;
   const distance = targetPosition - startPosition;
   let startTime = null;

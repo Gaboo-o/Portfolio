@@ -4,30 +4,31 @@
 @import url("styles/_navigation.css");
 @import url("styles/_skills.css");
 @import url("styles/_projects.css");
+@import url("styles/_achievements.css");
 @import url("styles/_footer.css");
 @import url("styles/_theme.css");
 
-* { 
-    margin: 0; 
-    padding: 0;     
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    text-align: left;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  scroll-behavior: smooth;
 }
 
 body {
-    color: var(--text-color);
-    background-color: var(--background-color);
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 img {
-    filter: brightness(0) invert(1);
-    transition: filter 0.3s;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s;
 }
 
 .light-mode img {
-    filter: brightness(0) invert(0);
+  filter: brightness(0) invert(0);
 }
 
 img.no-theme-filter {

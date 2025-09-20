@@ -1,79 +1,197 @@
 {
-    "navBar": {
-        "logo": {
-            "src": "assets/GV_Logo-black.png",
-            "alt": "Logo",
-            "href": "#top"
-        },
-        "navItems": [
-            { "text": "About", "src": "assets/navigation/about_icon.svg", "href": "#about" },
-            { "text": "Skills", "src": "assets/navigation/skills_icon.svg", "href": "#skills" },
-            { "text": "Projects", "src": "assets/navigation/projects_icon.svg", "href": "#projects" },
-            { "text": "Contact", "src": "assets/navigation/contact_icon.svg", "href": "#contact" }
-        ],
-        "menu": {
-            "open": { "src": "assets/navigation/menu/menuOpen_icon.svg", "alt": "MenuOpen" },
-            "openFill": { "src": "assets/navigation/menu/menuOpenFill_icon.svg", "alt": "MenuOpenFill" },
-            "close": { "src": "assets/navigation/menu/menuClose_icon.svg", "alt": "MenuClose" },
-            "closeFill": { "src": "assets/navigation/menu/menuCloseFill_icon.svg", "alt": "MenuCloseFill" }
-        }
+  "navBar": {
+    "logo": {
+      "src": "assets/GV_Logo-black.png",
+      "alt": "Logo",
+      "href": "#top"
     },
-    "header": {
-        "about": {
-            "title": "Gabriel\nValle",
-            "description": "Hey there! Welcome to my website!",
-            "imageSrc": "assets/header/profilePicture.png",
-            "imageAlt": "Profile Picture"
-        },
-        "hiddenAbout": {
-            "details": "I'm an international student from Brazil majoring in Computer Science :D\nI enjoy reading, playing games, and listening to EDM.\nYou can often find me at a library doing exactly that or studing.\nHere is my [Resume!](https://gabvalle.com/ResumeGabrielValle.pdf)",
-            "toggleOutline": { "src": "assets/header/toggleOutline_icon.svg", "alt": "Menu Toggle" },
-            "toggleFill": { "src": "assets/header/toggleFill_icon.svg", "alt": "Menu Toggle" }
-        }
-    },
-    "skills": {
-        "title": "Skills",
-        "list": {
-            "languages": [
-                { "src": "assets/skills/languages/cPlusPlus_icon.svg", "alt": "C++" },
-                { "src": "assets/skills/languages/javascript_icon.svg", "alt": "Javascript" },
-                { "src": "assets/skills/languages/html_icon.svg", "alt": "HTML" },
-                { "src": "assets/skills/languages/css_icon.svg", "alt": "CSS" },
-                { "src": "assets/skills/languages/python_icon.svg", "alt": "Python" },
-                { "src": "assets/skills/languages/cSharp_icon.svg", "alt": "C#" },
-                { "src": "assets/skills/languages/java_icon.svg", "alt": "Java" }
-            ],
-            "frameworks": [
-                { "src": "assets/skills/frameworks/react_icon.svg", "alt": "React" },
-                { "src": "assets/skills/frameworks/react_icon.svg", "alt": "React" },
-                { "src": "assets/skills/frameworks/react_icon.svg", "alt": "React" },
-                { "src": "assets/skills/frameworks/react_icon.svg", "alt": "React" }
-            ],
-            "other": [
-                { "src": "assets/skills/other/visualStudioCode_icon.svg", "alt": "VSCode" },
-                { "src": "assets/skills/other/git_icon.svg", "alt": "Git" },
-                { "src": "assets/skills/other/unity_icon.svg", "alt": "Unity" },
-                { "src": "assets/skills/other/visualStudio_icon.svg", "alt": "VisualStudio" },
-                { "src": "assets/skills/other/linux_icon.svg", "alt": "Linux" }
-            ]
-        },
-        "speed" : 60
-    },
-    "projects": {
-        "title": "Projects",
-        "list": [
-            { "title": "Cats&Dogs Gallery", "link": "https://github.com/Gaboo-o/CatsAndDogsGallery", "src": "assets/projects/dogsAndCats_demo.png", "alt": "Cats and Dogs Gallery", "description": "A gallery for cats and dogs" },
-            { "title": "Tiny Viking", "link": "https://github.com/Gaboo-o/NiceLittleSmallMinimalisticGame", "src": "assets/projects/tinyViking_demo.png", "alt": "Tiny Viking", "description": "A cute 2D top-down game prototype" },
-            { "title": "Occupation Analytics", "link": "https://github.com/Gaboo-o", "src": "assets/projects/occupationAnalytics_demo.png", "alt": "Occupation Analytics", "description": "A tool to analyze census data from DVC's San Ramon Campus Library and Academic Support Center" },
-            { "title": "UX Research", "link": "https://github.com/Gaboo-o/", "src": "assets/projects/uxResearch_demo.png", "alt": "UX Research", "description": "Research to evaluate the accessibility and usability of [Library.dvc.edu](https://library.dvc.edu)" }
-        ]
-        },
-    "footer": {
-        "list": [
-          { "src": "assets/footer/github_icon.svg", "alt": "GitHub", "href": "https://github.com/Gaboo-o" },
-          { "src": "assets/footer/linkedin_icon.svg", "alt": "LinkedIn", "href": "https://www.linkedin.com/in/gabriel--valle" },
-          { "src": "assets/footer/gmail_icon.svg", "alt": "Gmail", "href": "mailto:gabrielvalle33210@gmail.com" }
-        ]
+    "navItems": [
+      {
+        "text": "About",
+        "src": "assets/navigation/about_icon.svg",
+        "href": "#about"
+      },
+      {
+        "text": "Skills",
+        "src": "assets/navigation/skills_icon.svg",
+        "href": "#skills"
+      },
+      {
+        "text": "Projects",
+        "src": "assets/navigation/projects_icon.svg",
+        "href": "#projects"
+      },
+      {
+        "text": "Achievements",
+        "src": "assets/navigation/achievements_icon.svg",
+        "href": "#achievements"
+      },
+      {
+        "text": "Contact",
+        "src": "assets/navigation/contact_icon.svg",
+        "href": "#contact"
+      }
+    ],
+    "menu": {
+      "open": {
+        "src": "assets/navigation/menu/menuOpen_icon.svg",
+        "alt": "MenuOpen"
+      },
+      "openFill": {
+        "src": "assets/navigation/menu/menuOpenFill_icon.svg",
+        "alt": "MenuOpenFill"
+      },
+      "close": {
+        "src": "assets/navigation/menu/menuClose_icon.svg",
+        "alt": "MenuClose"
+      },
+      "closeFill": {
+        "src": "assets/navigation/menu/menuCloseFill_icon.svg",
+        "alt": "MenuCloseFill"
+      }
     }
+  },
+  "header": {
+    "about": {
+      "title": "Gabriel\nValle",
+      "description": "Hey there! Welcome to my website!",
+      "imageSrc": "assets/header/profilePicture.png",
+      "imageAlt": "Profile Picture"
+    },
+    "hiddenAbout": {
+      "details": "I'm an international student from Brazil majoring in Computer Science :D\nI enjoy reading, playing games, and listening to EDM.\nYou can often find me at a library doing exactly that or studing.\nHere is my [Resume!](https://gabvalle.com/ResumeGabrielValle.pdf)",
+      "toggleOutline": {
+        "src": "assets/header/toggleOutline_icon.svg",
+        "alt": "Menu Toggle"
+      },
+      "toggleFill": {
+        "src": "assets/header/toggleFill_icon.svg",
+        "alt": "Menu Toggle"
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "list": {
+      "languages": [
+        { "src": "assets/skills/languages/cPlusPlus_icon.svg", "alt": "C++" },
+        {
+          "src": "assets/skills/languages/javascript_icon.svg",
+          "alt": "Javascript"
+        },
+        { "src": "assets/skills/languages/html_icon.svg", "alt": "HTML" },
+        { "src": "assets/skills/languages/css_icon.svg", "alt": "CSS" },
+        { "src": "assets/skills/languages/python_icon.svg", "alt": "Python" },
+        { "src": "assets/skills/languages/cSharp_icon.svg", "alt": "C#" },
+        { "src": "assets/skills/languages/java_icon.svg", "alt": "Java" }
+      ],
+      "frameworks": [
+        { "src": "assets/skills/frameworks/react_icon.svg", "alt": "React" },
+        { "src": "assets/skills/frameworks/react_icon.svg", "alt": "React" },
+        { "src": "assets/skills/frameworks/react_icon.svg", "alt": "React" },
+        { "src": "assets/skills/frameworks/react_icon.svg", "alt": "React" }
+      ],
+      "other": [
+        {
+          "src": "assets/skills/other/visualStudioCode_icon.svg",
+          "alt": "VSCode"
+        },
+        { "src": "assets/skills/other/git_icon.svg", "alt": "Git" },
+        { "src": "assets/skills/other/unity_icon.svg", "alt": "Unity" },
+        {
+          "src": "assets/skills/other/visualStudio_icon.svg",
+          "alt": "VisualStudio"
+        },
+        { "src": "assets/skills/other/linux_icon.svg", "alt": "Linux" }
+      ]
+    },
+    "speed": 60
+  },
+  "projects": {
+    "title": "Projects",
+    "list": [
+      {
+        "title": "Cats&Dogs Gallery",
+        "link": "https://github.com/Gaboo-o/CatsAndDogsGallery",
+        "src": "assets/projects/dogsAndCats_demo.png",
+        "alt": "Cats and Dogs Gallery",
+        "description": "A picture gallery for cats and dogs"
+      },
+      {
+        "title": "Tiny Viking",
+        "link": "https://github.com/Gaboo-o/NiceLittleSmallMinimalisticGame",
+        "src": "assets/projects/tinyViking_demo.png",
+        "alt": "Tiny Viking",
+        "description": "A cute 2D top-down game prototype"
+      },
+      {
+        "title": "Occupation Analytics",
+        "link": "https://github.com/Gaboo-o",
+        "src": "assets/projects/occupationAnalytics_demo.png",
+        "alt": "Occupation Analytics",
+        "description": "A tool to analyze census data from DVC's San Ramon Campus Library and Academic Support Center"
+      },
+      {
+        "title": "UX Research",
+        "link": "https://github.com/Gaboo-o/",
+        "src": "assets/projects/uxResearch_demo.png",
+        "alt": "UX Research",
+        "description": "Research to evaluate the accessibility and usability of [Library.dvc.edu](https://library.dvc.edu)"
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Achievements",
+    "list": [
+      {
+        "title": "Student Speaker",
+        "link": "",
+        "src": "assets/achievements/welcomeDay_speech.jpeg",
+        "alt": "Welcome Day Student Panel Speaker"
+      },
+      {
+        "title": "Magazine Article",
+        "link": "https://issuu.com/dvcmarketing/docs/dvc_career_focus_summer_fall_2025",
+        "src": "assets/achievements/DVC_magazine.png",
+        "alt": "Magazine Article Interview"
+      },
+      {
+        "title": "WebDev Certificate",
+        "link": "",
+        "src": "assets/achievements/webdev_certificate.png",
+        "alt": "Web Development Certificate"
+      },
+      {
+        "title": "DS & ML Certificate",
+        "link": "https://credentials.edx.org/credentials/50a9b0067db5413f9098c2dfcb148bf6/",
+        "src": "assets/achievements/DS&ML_certificate.png",
+        "alt": "Data Science and Machine Learning Certificate"
+      },
+      {
+        "title": "CS Associate Degree",
+        "link": "https://www.parchment.com/u/award/1fbfdd9afd09b4bc3b6ce213cd7cab24",
+        "src": "assets/achievements/CS_associate.png",
+        "alt": "Associate Degree of Science in Computer Science"
+      }
+    ]
+  },
+  "footer": {
+    "list": [
+      {
+        "src": "assets/footer/github_icon.svg",
+        "alt": "GitHub",
+        "href": "https://github.com/Gaboo-o"
+      },
+      {
+        "src": "assets/footer/linkedin_icon.svg",
+        "alt": "LinkedIn",
+        "href": "https://www.linkedin.com/in/gabriel--valle"
+      },
+      {
+        "src": "assets/footer/gmail_icon.svg",
+        "alt": "Gmail",
+        "href": "mailto:gabrielvalle33210@gmail.com"
+      }
+    ]
+  }
 }
-  

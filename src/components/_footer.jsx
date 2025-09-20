@@ -14,11 +14,7 @@ export default function Footer({ data }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                className="link-img"
-                src={item.src}
-                alt={item.alt}
-              />
+              <img className="link-img" src={item.src} alt={item.alt} />
             </a>
           ))}
         </div>
