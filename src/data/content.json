@@ -129,11 +129,11 @@
         "link": "https://github.com/Gaboo-o",
         "src": "assets/projects/occupationAnalytics_demo.png",
         "alt": "Occupation Analytics",
-        "description": "A tool to analyze census data from DVC's San Ramon Campus Library and Academic Support Center"
+        "description": "A tool to analyze census data from DVC's San Ramon Campus Library and ASC"
       },
       {
         "title": "UX Research",
-        "link": "https://github.com/Gaboo-o/",
+        "link": "https://github.com/Gaboo-o/DVClibraryUX",
         "src": "assets/projects/uxResearch_demo.png",
         "alt": "UX Research",
         "description": "Research to evaluate the accessibility and usability of [Library.dvc.edu](https://library.dvc.edu)"

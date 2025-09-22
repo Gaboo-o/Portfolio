@@ -38,7 +38,7 @@ export default function Projects({ data }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Code Source
+                Source
               </a>
             </div>
           </div>

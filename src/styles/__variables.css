@@ -1,6 +1,6 @@
 :root {
-  --background-color: #353535;
-  --background-color-dark: #454545;
+  --background-color: #000000;
+  --background-color-dark: #000000;
   --background-hover-color: #ffffff;
   --text-color: #ffffff;
   --text-hover-color: #000000;
@@ -10,8 +10,8 @@
 }
 
 :root.light-mode {
-  --background-color: #dbdbdb;
-  --background-color-dark: #a7a7a7;
+  --background-color: #ffffff;
+  --background-color-dark: #ffffff;
   --background-hover-color: #000000;
   --text-color: #000000;
   --text-hover-color: #ffffff;
