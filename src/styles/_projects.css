@@ -3,19 +3,19 @@
 :root {
   --gap: 2%;
   --projects-per-row: 3;
-  --s: 1em; /* Corner size */
+  --s: 16px; /* Corner size */
 }
 
 .projects-title {
-  padding-top: 1em;
-  margin: 1em 0;
+  padding-top: 16px;
+  margin: 16px 0;
   border-right: var(--border-size) solid transparent;
   border-left: var(--border-size) solid transparent;
   border-top: var(--border-size) solid var(--border-color);
 }
 
 .projects-title h1 {
-  font-size: 3em;
+  font-size: 48px;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--gap);
-  padding: 0.5em;
+  padding: 8px;
   justify-content: center;
 }
 
@@ -33,7 +33,7 @@
   flex: 1 1 calc(100% / var(--projects-per-row) - var(--gap)); /* Calculates initial size */
   border: var(--border-size) solid var(--border-color);
   margin-bottom: var(--gap);
-  height: 30em;
+  height: 480px;
   max-width: calc(
     100% / var(--projects-per-row) - var(--gap)
   ); /* Prevents stretching to fill the available space */
@@ -56,7 +56,7 @@
   display: flex;
   flex-direction: column;
   flex: 0 0 35%;
-  padding: 0.5em;
+  padding: 8px;
   border: var(--border-size) solid transparent;
   border-top: var(--border-size) solid var(--border-color);
   margin-top: auto;
@@ -65,8 +65,8 @@
 
 .project-details-button {
   display: inline-block;
-  padding: 1em;
-  margin: auto auto 1em;
+  padding: 16px;
+  margin: auto auto 16px;
   border: var(--border-size) solid var(--border-color);
   mask:
     conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 /
